@@ -1,0 +1,223 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+header, main {
+    
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 32px 16px;
+    color: white;
+    background-color: black;
+    position: sticky;
+}
+@media (max-width: 700px){      
+    header {
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px;
+    }
+}
+nav ul{
+   list-style: none;
+   display:flex;
+   gap: 20px;
+   color: white;
+   margin: 0;
+   padding-left: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+nav {
+    display: flex;
+}
+
+@media (max-width:620px){
+    section.h2{
+        font-size: 100px;
+        color:black;
+        text-align: center;
+        margin: 0;
+        font-weight: normal;
+    }
+}
+
+h2 {
+    font-size: 80pt;
+    width: 100%;
+    text-align: center;
+}
+
+
+section h2{
+    
+        font-size: 7vw;
+        color:black;
+        text-align: center;
+        margin: 0;
+        font-weight: normal;
+
+
+}
+
+h2{
+    
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    
+}
+
+section.hero{
+    display: block;
+    background:white;
+    padding: 48px 16px;
+    
+}
+    
+
+
+
+div.camilo{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+div.tim{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.Illustratori{
+    display: flex;
+    padding: 10px;
+    padding-top: 10%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Illustratori img{
+    max-width: 80%;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+
+
+
+
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+    
+}
+header a:hover{
+    color: navajowhite;
+    
+}
+
+main a:hover{
+    color:royalblue;
+}
+
+div.karlotta{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+div.xoana{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.illustratori2{
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.illustratori2 img{
+    max-width: 80%;
+}
+
+div.linn{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+div.laboca{
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.illustratori3{
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.illustratori3 img{
+    max-width: 80%;
+    
+    
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+}
+
+footer p{
+    font-size: 10pt;
+    color: white;
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+footer a:hover {
+    color: navajowhite;
+    }
+
+
+
